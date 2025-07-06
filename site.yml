@@ -1,7 +1,23 @@
 ---
-- hosts: ProxmoxContainers
+- hosts: all
   become: true
   tasks:
-    - name: Update DebianUbuntu containers
-      ansible.builtin.package:
-        name: apache2
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+
+    - name: Update packages
+      apt:
+        upgrade: dist
+
+    - name: Execute apt autoremove
+      apt:
+        autoremove: yes
+
+    - name: Execute apt autoclean
+      apt:
+        autoclean: yes
+
+    - name: Execute apt clean
+      apt:
+        clean: yes
