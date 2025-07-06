@@ -1,0 +1,7 @@
+---
+- hosts: ProxmoxContainers
+  become: true
+  tasks:
+    - name: Update DebianUbuntu containers
+      ansible.builtin.package:
+        name: apache2
