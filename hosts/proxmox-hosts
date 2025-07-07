@@ -1,4 +1,4 @@
-[proxmox-vms]
+[proxmox_vms]
 pve ansible_host=192.168.188.104
 pve2 ansible_host=192.168.188.72
 pbs ansible_host=192.168.188.66
