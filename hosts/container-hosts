@@ -1,10 +1,10 @@
 [proxmox_containers]
-container1 ansible_host=192.168.188.38
-container2 ansible_host=192.168.188.30
-container3 ansible_host=192.168.188.50
-container5 ansible_host=192.168.188.45
-container6 ansible_host=192.168.188.48
-container7 ansible_host=192.168.188.51
-container8 ansible_host=192.168.188.93
-container9 ansible_host=192.168.188.121
-container10 ansible_host=192.168.188.126
+Nextcloud ansible_host=192.168.188.38
+Stirling ansible_host=192.168.188.30
+Ollama ansible_host=192.168.188.50
+Jellyfin ansible_host=192.168.188.45
+n8n ansible_host=192.168.188.48
+SearXNG ansible_host=192.168.188.51
+Overleaf ansible_host=192.168.188.93
+Nextcloud2 ansible_host=192.168.188.121
+VW ansible_host=192.168.188.126
